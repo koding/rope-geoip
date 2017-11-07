@@ -1,14 +1,11 @@
 {
   "name": "rope-geoip",
   "version": "0.0.1",
-  "description": "rope-geoip: rope node for querying ip geolocations",
+  "description": "geoip: rope node for querying ip geolocations",
   "main": "index.js",
-  "scripts": {
-    "start": "micro"
-  },
   "repository": {
     "type": "git",
-    "url": "github.com/koding/rope-geoip"
+    "url": "github.com/ropelive/geoip"
   },
   "keywords": [
     "kite",
@@ -20,7 +17,6 @@
   "license": "MIT",
   "dependencies": {
     "geoip-lite": "^1.2.1",
-    "kite.js": "^1.0.9",
-    "micro": "^8.0.4"
+    "@rope/node": "0.0.1"
   }
 }
